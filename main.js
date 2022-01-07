@@ -5,3 +5,5 @@ const week1 = [
     }
    
 ];
+// testing consol log for week1 
+console.log(week1);
