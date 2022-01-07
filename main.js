@@ -7,3 +7,6 @@ const week1 = [
 ];
 // testing consol log for week1 
 console.log(week1);
+// further testing log for array
+console.log(week1.url);
+console.log(week1.label);
