@@ -1,0 +1,27 @@
+html{
+    background-color: #134767;
+}
+body{
+    background-color: #EFF5FB;
+    max-width: 950px;
+    text-align: center;
+    margin: auto;
+
+}
+  
+  header{
+      background-color: aqua;
+      text-align: center;
+      margin: auto;
+  }
+  main{
+      background-color: #EFF5FB;
+      text-align: center;
+      margin: auto;
+  }
+  footer{
+      border:#134767;
+      text-align: center;
+      margin: auto;
+
+  }
