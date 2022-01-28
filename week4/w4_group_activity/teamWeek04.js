@@ -30,42 +30,42 @@ function clicked(e) {
       checkWin();
 }
 
-function checkWin() {
-  const boxes = document.querySelectorAll('.box');
-  // check across
-  // check diag
-  // check vertical
+// function checkWin() {
+//   const boxes = document.querySelectorAll('.box');
+//   // check across
+//   // check diag
+//   // check vertical
 
-  match = false
+//   match = false
 
-  for (let i = 0; i < boxes.length; i++) {
-    if(boxes[0].outerText === boxes[1].outerText && boxes[0].outerText === boxes[2].outerText) {//Top Row
-      endOfGame();
-      match = true;
-      break;
-    }else if((boxes[0].outerText === boxes[3].outerText && boxes[0].outerText === boxes[6].outerText)) {//1st column
-      endOfGame();
-      match = true;
-      break;
-    }else if((boxes[3].outerText === boxes[4].outerText && boxes[3].outerText === boxes[5].outerText)) {//middle row
-      endOfGame(); 
-      match = true;
-        break;
-    }else if((boxes[6].outerText === boxes[7].outerText && boxes[6].outerText === boxes[8].outerText)) {//bottom row
-      endOfGame();
-      match = true;
-      break;
-    }else if((boxes[1].outerText === boxes[4].outerText && boxes[1].outerText === boxes[7].outerText)) {//middle column
-      endOfGame();
-      match = true;
-        break;
-    }else if((boxes[2].outerText === boxes[5].outerText && boxes[2].outerText === boxes[8].outerText)) {//bottom row
-      endOfGame();    
-      match = true;
-            break;}
-          }
+//   for (let i = 0; i < boxes.length; i++) {
+//     if(boxes[0].outerText === boxes[1].outerText && boxes[0].outerText === boxes[2].outerText) {//Top Row
+//       endOfGame();
+//       match = true;
+//       break;
+//     }else if((boxes[0].outerText === boxes[3].outerText && boxes[0].outerText === boxes[6].outerText)) {//1st column
+//       endOfGame();
+//       match = true;
+//       break;
+//     }else if((boxes[3].outerText === boxes[4].outerText && boxes[3].outerText === boxes[5].outerText)) {//middle row
+//       endOfGame(); 
+//       match = true;
+//         break;
+//     }else if((boxes[6].outerText === boxes[7].outerText && boxes[6].outerText === boxes[8].outerText)) {//bottom row
+//       endOfGame();
+//       match = true;
+//       break;
+//     }else if((boxes[1].outerText === boxes[4].outerText && boxes[1].outerText === boxes[7].outerText)) {//middle column
+//       endOfGame();
+//       match = true;
+//         break;
+//     }else if((boxes[2].outerText === boxes[5].outerText && boxes[2].outerText === boxes[8].outerText)) {//bottom row
+//       endOfGame();    
+//       match = true;
+//             break;}
+//           }
       
 
   
 
-}
+// }
