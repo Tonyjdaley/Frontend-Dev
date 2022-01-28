@@ -66,8 +66,6 @@ function checkWin() {
           }
       
 
-  function endOfGame() {
-    alert('end of game');
-  }
+  
 
 }
