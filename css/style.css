@@ -28,4 +28,7 @@ body{
         margin: auto;
 
     }
+    ol{
+        list-style-type: none;
+    }
     
