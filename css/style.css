@@ -10,21 +10,22 @@ body{
 
 }
   
-  header{
-      background-color: rgb(107, 116, 116);
-      text-align: center;
-      margin: auto;
-  }
-  main{
-      background-color: #9aa0a7;
-      align-content: center;
-      text-align: left;
-      margin: auto;
-      padding: 20px;
-  }
-  footer{
-      border:#134767;
-      text-align: center;
-      margin: auto;
+    header{
+        background-color: rgb(107, 116, 116);
+        text-align: center;
+        margin: auto;
+    }
+    main{
+        background-color: #9aa0a7;
+        align-content: center;
+        text-align: left;
+        margin: auto;
+        padding: 20px;
+    }
+    footer{
+        border:#134767;
+        text-align: center;
+        margin: auto;
 
-  }
+    }
+    
