@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+ function setCookie() 
+ {
+  var name = document.getElementById('person').value
+  document.cookie = "user=" + name + ";"
+  document.cookie = "name=" + name + ";"
+  alert("Cookie Created")
+ }
+ function readCookie() 
+ {
+  var cookie = document.cookie
+  var panel = document.getElementById('panel')
+  if(cookie == "")
+   panel.innerHTML = "Cookie not found"
+  else
+   panel.innerHTML = cookie
+ }
+</script>
+</head>
+<body>
+<form name="myForm">
+Enter your name <input type="text" id="person"/><br/>
+<input type="button" value="Set Cookie" onclick="setCookie()"/>
+<input type="button" value="Read Cookie" onclick="readCookie()"/>
+<p id="panel"></p>
+</form>
+</body>
+</html>
